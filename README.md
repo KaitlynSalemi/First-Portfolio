@@ -29,3 +29,12 @@ kept the navbar code and footer
 changed the heading and made a form for name email and message 
 
 ![screen shot index.html](./README_images/screen_shot_contacthtml.png)
+
+
+add color to each of the elements
+
+made classes on the html
+
+added the rest css
+
+![screen shot index.html](./README_images/screen_shot_colorscss.png)

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KS Portfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -25,20 +26,29 @@
         
     </nav>
     
-    <section>
+    <section class="container">
         <h2>Portfolio</h2>
         <hr>
-        <img src="./assets/images/download (1).jpeg" alt="dog with stick running in water" style="width: 100px; height: auto;"> 
-        <div>Stick</div>
-
-        <img src="./assets/images/download.jpeg" alt="" style="width: 100px; height: auto;">
-        <div>Leaves</div>
-
-        <img src="./assets/images/images (1).jpeg" alt="" style="width: 100px; height: auto;">
-        <div>Ginger</div>
+        <div class="relative">
+            <img src="./assets/images/download (1).jpeg" alt="dog with stick running in water" style="width: 100px; height: auto;"> 
+            <p class="absolute">Stick</p>
+        </div>
         
-        <img src="./assets/images/images.jpeg" alt="" style="width: 100px; height: auto;">
-        <div>Tree</div>
+        <div class="relative">
+            <img src="./assets/images/download.jpeg" alt="" style="width: 100px; height: auto;">
+            <p class="absolute">Leaves</p> 
+        </div>
+        
+        <div class="relative">
+           <img src="./assets/images/images (1).jpeg" alt="" style="width: 100px; height: auto;">
+            <p class="absolute">Ginger</p> 
+        </div>
+        
+        <div class="relative">
+           <img src="./assets/images/images.jpeg" alt="" style="width: 100px; height: auto;">
+            <p class="absolute">Tree</p> 
+        </div>
+        
     </section>
     
     <footer></footer>
