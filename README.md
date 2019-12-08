@@ -38,3 +38,12 @@ made classes on the html
 added the rest css
 
 ![screen shot index.html](./README_images/screen_shot_colorscss.png)
+
+
+added some formating 
+
+font sizes, padding, margins
+
+there is still more fixes to come 
+
+![screen shot index.html](./README_images/screen_shot_formatscss.png)

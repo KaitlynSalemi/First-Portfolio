@@ -1,36 +1,119 @@
 body {
     background-image: url("paper.gif");
     background-color: lightgrey;
+    font-size: 20px;
 }
 
-nav {
+.nav {
     background-color: white;
 }
 
 h1 {
     background-color: rgb(87, 192, 192);
     color: white;
+    padding: 25px;
+    font-size: 35px;
+    width: fit-content; 
+    margin-left: 200px;
 }
 
 a {
     color: grey;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+/* a:hover {
+    text-decoration: darkgrey;
+} */
+
+.navigators {
+    float: right;
+    margin-right: 105px;
+}
+
 h2 {
     color: rgb(87, 192, 192);
+    font-size: 30px;
 }
 
 p {
     color: grey;
+    line-height: 30px;
 }
 
 .container {
     background-color: white;
+    width: 900px;
+    height: fit-content;
+    padding: 40px 30px;
+    margin: 40px 200px 103px;
+}
+
+#profilepic {
+    width: 200px; 
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.absolute {
+    background-color: rgb(87, 192, 192);
+    width: 100px;
+    padding: 10px 30px;
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+}
+
+.relative {
+    /* position: relative; */
+    width: 100px; height: auto;
+}
+
+/* .floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+} */
+
+.nameemail {
+    width: 890px;
+    line-height: 30px;
+}
+
+#message {
+    width: 890px;
+    line-height: 30px;
+    height: 200px
+}
+
+input {
+    font-size: 15px;
+}
+#submit {
+    background-color: rgb(87, 192, 192);
+    color: white;
+    font-size: 20px;
+    padding: 10px 35px;
+    margin: 20px 0;
+}
+
+#submit:link {
+    text-decoration: none;
 }
 
 footer {
     color: white;
+    text-align: center;
+    font-size: 10px;
     background-color: grey;
-    border: 50px;
-    border-color: teal;
+    padding-top: 30px;
+    border-style: solid; 
+    border-width: 8px 0 0 0;
+    border-color: rgb(87, 192, 192);
 }
