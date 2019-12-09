@@ -12,18 +12,20 @@
     <nav class="nav">
         <h1>Kaitlyn Salemi</h1>
         
-        <div class="navigators">
-            <a href="./index.html">
-                About |
-            </a> 
-            <a href="./portfolio.html">
-                Portfolio |
-            </a> 
-            <a href="./contact.html">
-                Contact
-            </a>
-        </div>
-        
+        <ul>
+            <li>
+                <a href="./index.html">About</a> 
+            </li>
+            <li>|</li>
+            <li>
+                <a href="./portfolio.html">Portfolio</a> 
+            </li>
+            <li>|</li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+            
     </nav>
     
     <section class="container">
@@ -31,11 +33,12 @@
         <hr>
         <form action="">
             <p>Name</p> 
-            <input class="nameemail" type="text" name="name"> <br>
+            <input class="form" type="text" name="name"> <br>
             <p>Email</p> 
-            <input class="nameemail" type="text" name="email"> <br>
+            <input class="form" type="email" name="email"> <br>
             <p>Message</p> 
-            <input id="message" type="text" name="message"> <br>
+            <textarea class="form" name="message"  cols="100" rows="8">
+            </textarea> <br>
             <input id="submit" type="submit" value="Submit">
         </form>
     </section>

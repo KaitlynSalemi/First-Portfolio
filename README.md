@@ -37,7 +37,7 @@ made classes on the html
 
 added the rest css
 
-![screen shot index.html](./README_images/screen_shot_colorscss.png)
+![screen shot index.html](./README_images/screen_shot_colorcss.png)
 
 
 added some formating 
@@ -46,4 +46,12 @@ font sizes, padding, margins
 
 there is still more fixes to come 
 
-![screen shot index.html](./README_images/screen_shot_formatscss.png)
+![screen shot index.html](./README_images/screen_shot_formatcss.png)
+
+
+I moved the click-throughs to the nav bar, but I am still working on moving them to the right location
+
+I reformated the portfolio page so that everything is floating correctly 
+
+I changed the input of the message box so that the user can write multiple lines
+
