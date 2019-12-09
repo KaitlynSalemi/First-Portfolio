@@ -1,57 +1,41 @@
 # Portfolio
 
-I inserted all the data into the html file.
+## The Objective 
 
-made nav bar with a header "Kaitlyn Salemi" and three clickables that will take you to the other html pages
+For the assignment, we were to make a website with three pages. We had to style them with css to resemble the images below.
 
-made a section with another header "About Me", horizontal line, image, and paragraph.
+![about me](./README_images/portfolio-about-me.png)
+![about me](./README_images/portfolio-gallery.png)
+![about me](./README_images/portfolio-contact.png)
 
-also made a footer. Is not visable in the picture below
+
+## The Purpose 
+
+The purpose of the exercise is to code with only a visual to guide you. In the future, we'll have to decide what the end product will be before we start any coding. 
+
+
+## The Process
+
+After all of the files were created I started on the html. For each page I started at the top with the heading and ended with the footer. Inbetween I added the information and images needed for the page. 
 
 ![screen shot index.html](./README_images/screen_shot_indexhtml.png)
 
-
-
-copy and pasted the code from the first html file
-
-kept the information in the nav and the footer
-
-I replaced the paragraph with the images and the boxes 
-
 ![screen shot index.html](./README_images/screen_shot_portfoliohtml.png)
-
-
-
-copy and pasted the code form the portfolio html file 
-
-kept the navbar code and footer
-
-changed the heading and made a form for name email and message 
 
 ![screen shot index.html](./README_images/screen_shot_contacthtml.png)
 
 
-add color to each of the elements
-
-made classes on the html
-
-added the rest css
+Next I added color so that each element was more easily seen. 
 
 ![screen shot index.html](./README_images/screen_shot_colorcss.png)
 
-
-added some formating 
-
-font sizes, padding, margins
-
-there is still more fixes to come 
+Then, I continued on with the formating. 
 
 ![screen shot index.html](./README_images/screen_shot_formatcss.png)
 
+Eventually, I arrived at the final product. 
 
-I moved the click-throughs to the nav bar, but I am still working on moving them to the right location
+## Challenges 
 
-I reformated the portfolio page so that everything is floating correctly 
-
-I changed the input of the message box so that the user can write multiple lines
+The components I struggled with most were getting the click-thrus to float properly and formatting the Portfolio page.
 

@@ -1,0 +1,86 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* this applies to the entire page. These elements change the font size, the space between each line of text, and the color of the text.  */
+body {
+  font-size: 24px; 
+  line-height: 32px;
+  color: #333;
+}
+
+/* this is for the top orange part. The padding makes the orange space around the text larger (20px). margin-bottom adds space under the orange box before the next element. color changes the color of the text and background changes the color of the background */
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #FFA500;
+}
+
+/* this applies for all the elements with the section tag. There are 4 */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #FFA500;
+}
+
+/* ids start with hashtags. width means that this element will take up 33.3% of the width of the page. float means that the page will move behind the element. */
+#left {
+  float: left;
+  width: 33.3%;
+  color: #fff;
+  background: #30948D;
+}
+
+/* becasue this section will also float left it will follow right after the one before */
+#middle {
+  float: left;
+  width: 33.3%;
+  color: #fff;
+  background: #9E1212;
+}
+
+#right {
+  float: left;
+  width: 33.3%;
+  color: #fff;
+  background: #30948D;
+}
+
+/* this id is for the aside, the greyish box, and the div. overflow is used when the content is too big to fit in the area given and it is cliped. floating is cleared for both. I am not sure what both means. */
+#full {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  color: #fff;
+  background: #394549;
+}
+
+#division {
+  padding: 20px;
+  margin-top: 20px;
+  background: #214fb3;
+}
+
+/* the height changes th height of the element area. float is added back in. the border is the space between the padding and the margin */
+aside {
+  float: left;
+  width: 33%;
+  height: 200px;
+  padding: 20px;
+  margin-left: 30px;
+  background: #a6b747;
+  border: 1px solid #eee;
+}
+
+/* clear clears the  floating from above*/
+footer {
+  padding: 20px;
+  clear: both;
+  background: #FFA500;
+}

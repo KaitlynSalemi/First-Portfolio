@@ -1,5 +1,5 @@
 body {
-    background-image: url("./assets/images/texture.png");
+    background-image: url("../images/texture.png");
     /* background-color: lightgrey; */
     font-size: 20px;
 }
@@ -21,12 +21,13 @@ h1 {
 }
 
 ul {
-    margin: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 110px;
 }
   
 li {
     float: left;
-    display: block;
     color: lightgrey;
     text-align: center;
     padding: 10px;
