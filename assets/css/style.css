@@ -1,6 +1,6 @@
 body {
-    background-image: url("paper.gif");
-    background-color: lightgrey;
+    background-image: url("./assets/images/texture.png");
+    /* background-color: lightgrey; */
     font-size: 20px;
 }
 
@@ -67,10 +67,6 @@ p {
     margin-right: 20px;
 }
 
-.gallery {
-    margin: 20px;
-}
-
 .photo {
     position: relative;
     margin: 10px;
@@ -78,6 +74,10 @@ p {
     width: 400px;
 }
 
+.photo:hover {
+    border-width: 5px;
+    border-color: lightgrey;
+}
 .title {
     background-color: rgb(87, 192, 192);
     width: 230px;
